@@ -265,6 +265,7 @@ def npr(img_path=None, vid_path=None, vid_out = None, livestream = None):
         out.release()
         
         ## closing all windows
+        
         cv2.destroyAllWindows()
 
 ### -------------------  Calling the main function  -------------------------------
